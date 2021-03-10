@@ -1,0 +1,11 @@
+.messages {
+    border: 5px solid #12C7E6;
+    border-radius: 30px;
+    width: 900px;
+    height: 350px;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

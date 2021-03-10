@@ -1,0 +1,37 @@
+.message {
+    display: flex;
+    flex-direction: column;
+}
+
+.message__name {
+    text-align: left;
+    margin-left: 1em;
+    margin-bottom: .1em;
+    color: #898989;
+}
+
+.message__content {
+    border: 2px solid #E67212;
+    height: 30px;
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 30px;
+    background-color: #E67212;
+    margin-left: 1em;
+    margin-right: auto;
+    margin-bottom: .5em;
+}
+
+.message__content__user {
+    border: 2px solid #12C7E6;
+    height: 30px;
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 30px;
+    background-color: #12C7E6;
+    margin-left: auto;
+    margin-right: 1em;
+    margin-bottom: .5em;
+}
