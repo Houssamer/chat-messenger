@@ -20,12 +20,20 @@ body {
 .auth {
   height: 100vh;
   width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .chat {
   overflow: hidden;
   height: 100vh;
   width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
