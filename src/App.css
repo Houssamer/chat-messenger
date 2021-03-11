@@ -20,6 +20,7 @@ body {
 .auth {
   height: 100vh;
   width: auto;
+  display: none;
 }
 
 .chat {
@@ -32,4 +33,39 @@ h1 {
   font-size: 50px;
   text-align: center;
   margin-top: -.2em;
+}
+
+@media (max-width: 1024px) {
+
+  .auth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .chat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  h3 {
+    font-size: 30px;
+  }
+
+}
+
+@media (max-width: 360px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  .auth {
+    display: flex;
+    flex-direction: column;
+  }
+  h3 {
+    font-size: 16px;
+  }
 }

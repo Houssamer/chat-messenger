@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
 .input__form {
     display: flex;
     justify-content: space-evenly;
@@ -16,7 +18,7 @@
     font-size: 20px;
     outline: none;
     transition: all 100ms ease;
-    font-family: Pacifico;
+    font-family: Oswald;
 }
 
 .input__input:focus {
@@ -27,4 +29,73 @@
 .input__img {
     flex: 0;
     cursor: pointer;
+}
+
+@media (max-width: 540px) {
+    .input__form {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 2em;
+    }
+    
+    .input__input {
+        flex: .85;
+        width: 300px;
+        height: 40px;
+        border: 2px solid #12C7E6;
+        border-radius: 30px;
+        padding-left: 1em;
+        background-color: #12C7E6;
+        font-size: 12px;
+        outline: none;
+        transition: all 100ms ease;
+        font-family: Oswald;
+    }
+    
+    .input__input:focus {
+        border: 4px solid #E67212;
+        transition: all 100ms ease;
+    }
+    
+    .input__img {
+        width: 24px;
+        height: 24px;
+        flex: 0;
+        cursor: pointer;
+    }
+}
+@media (max-width: 375px) {
+    .input__form {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 2em;
+    }
+    
+    .input__input {
+        flex: .85;
+        width: 210px;
+        height: 40px;
+        border: 2px solid #12C7E6;
+        border-radius: 30px;
+        padding-left: 1em;
+        background-color: #12C7E6;
+        font-size: 12px;
+        outline: none;
+        transition: all 100ms ease;
+        font-family: Oswald;
+    }
+    
+    .input__input:focus {
+        border: 4px solid #E67212;
+        transition: all 100ms ease;
+    }
+    
+    .input__img {
+        width: 24px;
+        height: 24px;
+        flex: 0;
+        cursor: pointer;
+    }
 }

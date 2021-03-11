@@ -15,7 +15,7 @@ function App() {
 
 
   useEffect(() => {
-    db.collection('messages').orderBy('timestamp', 'asc').onSnapshot(snapshot => {
+    db.collection('messages').orderBy('timestamp', 'desc').onSnapshot(snapshot => {
       setMessages(snapshot.docs.map(doc => ({id: doc.id, messagesInfo: doc.data()})))
     })
   }, [])
